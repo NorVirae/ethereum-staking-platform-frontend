@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Person } from './components/person';
 
 function App() {
   const name:string = "Hello";
 
   interface Props {
-    name:string;
-    age:number;
-    eamil:string;
+    name:string
   }
 
   const getName = (name:string):string => {
@@ -18,8 +15,6 @@ function App() {
   return (
     <div className="">
        {getName("hello")}
-
-       <Person props={{name:"hello", age:23}} />
     </div>
   );
 }

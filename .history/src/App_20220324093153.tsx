@@ -19,7 +19,7 @@ function App() {
     <div className="">
        {getName("hello")}
 
-       <Person props={{name:"hello", age:23}} />
+       <Person
     </div>
   );
 }
